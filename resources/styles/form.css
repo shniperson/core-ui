@@ -241,6 +241,9 @@
 .l-field_focused:after {
     width: 100%;
 }
+.l-field_readonly.l-field_focused:after {
+    width: 0;
+}
 
 
 .field {
@@ -259,7 +262,7 @@
     text-overflow: ellipsis;
     border-bottom:1px solid #182026;
 }
-.field:empty{
+.field_empty{
     border-bottom-color:#b9bcbd;
 }
 
